@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,6 +20,7 @@
             border-radius: 20px;
             font-size: 1.1em;
             transition: 0.3s ease;
+            margin-bottom: 20px;
         }
         .whatsapp-btn:hover {
             background-color: #5fd890e5;
@@ -29,28 +30,80 @@
             text-decoration: none;
             font-weight: bold;
         }
-
         a:hover {
             text-decoration: underline;
         }
-
         img {
-            width: 90%;
-            max-width: 400px;
+            width: 50%;
+            max-width: 200px;
             height: auto;
             margin-top: 20px;
             border-radius: 10px;
         }
+        table {
+            margin: 30px auto;
+            border-collapse: collapse;
+            color: #bda313;
+            width: 90%;
+            max-width: 700px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #bda313;
+        }
+        th {
+            background-color: #cfaee7;
+        }
+        ul.regras {
+            max-width: 700px;
+            margin: 30px auto;
+            text-align: left;
+            padding-left: 20px;
+        }
+        p.final-msg {
+            margin-top: 30px;
+            font-style: italic;
+        }
     </style>
 </head>
 <body>
-    <h1><b>Anne Tischler Makeup</b></h1>
-    <p>Link para agendamento:</p>
-    <ul>
-        <li><a href="https://wa.me/5549984111810" target="_blank" class="whatsapp-btn">Agende pelo WhatsApp</a></li>
+
+        <img src="anne.img.jpeg" alt="Anne Tischler" />
+
+
+        <a href="https://wa.me/5549984111810" target="_blank" class="whatsapp-btn">Agende pelo WhatsApp</a>
+
+
+    <h2>Tabela de Valores</h2>
+    <table>
+        <tr>
+            <th>Serviço</th>
+            <th>Descrição</th>
+            <th>Valor</th>
+        </tr>
+        <tr>
+            <td>Maquiagem Social</td>
+            <td>Ideal para festas e eventos noturnos</td>
+            <td>R$ 100,00</td>
+        </tr>
+        <tr>
+            <td>Maquiagem Dia</td>
+            <td>Leve, natural e elegante, ideal para fotos</td>
+            <td>R$ 80,00</td>
+        </tr>
+    </table>
+
+    <h2>Informações de Atendimento</h2>
+    <ul class="regras">
+        <li>Agendamentos com horário marcado e confirmados com sinal via Pix.</li>
+        <li>Tolerância de atraso: 10 minutos.</li>
+        <li>Formas de pagamento: Pix ou dinheiro.</li>
+        <li>Venha com a pele limpa e hidratada.</li>
+        <li>Atendimento com muito carinho e atenção aos detalhes. 💖</li>
     </ul>
 
-    <img src="anne.img.jpg" alt="Anne Tischler" />
+    <p class="final-msg">✨ Cada detalhe pensado com carinho pra você. — Anne Tischler Makeup</p>
+
 </body>
 </html>
 
