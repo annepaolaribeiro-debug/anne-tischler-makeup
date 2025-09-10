@@ -3,78 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anne Tischler Makeup</title>
+    <title>Maquiadora Profissional | Anne Tischler Makeup</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
     <style>
         body {
             background-color: #d099db91; /* lilás claro */
-            color: #bda313; /* dourado */
+            color: #8c7810; /* dourado mais escuro para melhor contraste */
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 20px;
         }
-        .whatsapp-btn {
-            display: inline-block;
-            background-color: #56b479;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 20px;
-            font-size: 1.1em;
-            transition: 0.3s ease;
-            margin-bottom: 20px;
-        }
-        .whatsapp-btn:hover {
-            background-color: #5fd890e5;
-        }
-        a {
-            color: #b39c19;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
+
         img {
-            width: 50%;
+            width: 100%;
             max-width: 200px;
             height: auto;
             margin-top: 20px;
             border-radius: 10px;
         }
+
+        .whatsapp-btn {
+            display: inline-block;
+            background-color: #56b479;
+            color: white;
+            padding: 10px 25px;
+            border-radius: 20px;
+            font-size: 1.1em;
+            font-weight: bold;
+            text-decoration: none;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            margin: 20px 0;
+        }
+
+        .whatsapp-btn:hover {
+            background-color: #5fd890e5;
+            transform: scale(1.05);
+        }
+
         table {
             margin: 30px auto;
             border-collapse: collapse;
-            color: #bda313;
+            color: #8c7810;
             width: 90%;
             max-width: 700px;
         }
+
         th, td {
             padding: 10px;
             border: 1px solid #bda313;
         }
+
         th {
             background-color: #cfaee7;
         }
+
         ul.regras {
             max-width: 700px;
             margin: 30px auto;
             text-align: left;
             padding-left: 20px;
         }
+
+        a {
+            color: #b39c19;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
         p.final-msg {
             margin-top: 30px;
             font-style: italic;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 10px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            .whatsapp-btn {
+                padding: 10px 20px;
+                font-size: 1em;
+            }
         }
     </style>
 </head>
 <body>
 
-        <img src="anne.img.jpeg" alt="Anne Tischler" />
+    <img src="anne.img.jpeg" alt="Anne Tischler" />
 
-
-       <a href="https://wa.me/5549984111810?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" class="whatsapp-btn">
-          Agende pelo WhatsApp
-        </a>
-
+    <a href="https://wa.me/5549984111810?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio." target="_blank" class="whatsapp-btn">
+        💬 Agende pelo WhatsApp
+    </a>
 
     <h2>Tabela de Valores</h2>
     <table>
@@ -97,17 +125,14 @@
 
     <h2>Informações de Atendimento</h2>
     <ul class="regras">
-        <li>Agendamentos com horário marcado e confirmados com sinal via Pix.</li>
+        <li>Agendamentos com horário marcado e confirmados.</li>
         <li>Tolerância de atraso: 10 minutos.</li>
         <li>Formas de pagamento: Pix ou dinheiro.</li>
         <li>Venha com a pele limpa e hidratada.</li>
-        <li>Atendimento com muito carinho e atenção aos detalhes. 💖</li>
-    </ul>
 
     <p class="final-msg">✨ Cada detalhe pensado com carinho pra você. — Anne Tischler Makeup</p>
 
 </body>
 </html>
-
 
 
