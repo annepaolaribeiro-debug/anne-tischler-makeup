@@ -6,33 +6,60 @@
     <title>Anne Tischler Makeup</title>
     <style>
         body {
-            background-color: #d099db91; /* lilás claro */
-            color: #bda313; /* dourado */
+            background-color: #f8eaf6; /* lilás/rosê claro */
+            color: #333333; /* texto cinza escuro para contraste */
             font-family: Arial, sans-serif;
             text-align: center;
             padding: 20px;
         }
+
+        h1, h2 {
+            color: #D4AF37; /* dourado */
+        }
+
         .whatsapp-btn {
             display: inline-block;
-            background-color: #56b479;
-            color: white;
-            padding: 10px 20px;
+            background-color: #D4AF37; /* dourado */
+            color: #ffffff;
+            padding: 12px 25px;
             border-radius: 20px;
             font-size: 1.1em;
             transition: 0.3s ease;
-            margin-bottom: 20px;
-        }
-        .whatsapp-btn:hover {
-            background-color: #5fd890e5;
-        }
-        a {
-            color: #b39c19;
+            margin: 20px 0;
             text-decoration: none;
             font-weight: bold;
         }
+
+        .whatsapp-btn:hover {
+            background-color: #F4C2C2; /* rosê ao passar o mouse */
+        }
+
+        .instagram-btn {
+            display: inline-block;
+            background-color: #F4C2C2; /* rosê */
+            color: #ffffff;
+            padding: 10px 20px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            text-decoration: none;
+            font-weight: bold;
+            transition: 0.3s ease;
+        }
+
+        .instagram-btn:hover {
+            background-color: #D4AF37; /* dourado */
+        }
+
+        a {
+            color: #D4AF37;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
         a:hover {
             text-decoration: underline;
         }
+
         img {
             width: 50%;
             max-width: 200px;
@@ -40,38 +67,50 @@
             margin-top: 20px;
             border-radius: 10px;
         }
+
         table {
             margin: 30px auto;
             border-collapse: collapse;
-            color: #bda313;
+            color: #333333;
             width: 90%;
             max-width: 700px;
         }
+
         th, td {
             padding: 10px;
-            border: 1px solid #bda313;
+            border: 1px solid #D4AF37;
         }
+
         th {
-            background-color: #cfaee7;
+            background-color: #f0d4f1; /* lilás/rosê claro */
         }
+
         ul.regras {
             max-width: 700px;
             margin: 30px auto;
             text-align: left;
             padding-left: 20px;
         }
+
         p.final-msg {
             margin-top: 30px;
             font-style: italic;
+            color: #333333;
         }
     </style>
 </head>
 <body>
 
+    <!-- Foto e apresentação -->
     <img src="anne.img.jpeg" alt="Anne Tischler" />
+    <h1>Maquiadora profissional em Santa Cecília • SC 💋</h1>
+    <p>Realço sua beleza com naturalidade e confiança.</p>
 
-    <a href="https://wa.me/5549984111810?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio" target="_blank" class="whatsapp-btn">Agende pelo WhatsApp</a>
+    <!-- Botões de ação -->
+    <a href="https://www.instagram.com/annetischlermakeup/" target="_blank" class="instagram-btn">📸 Veja minhas maquiagens no Instagram</a><br>
+    <a href="https://wa.me/5549984111810?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20hor%C3%A1rio" target="_blank" class="whatsapp-btn">✨ Falar com a Anne no WhatsApp</a>
 
+    <!-- Tabela de preços -->
     <h2>Tabela de Maquiagem</h2>
     <table>
         <tr>
@@ -80,13 +119,18 @@
             <th>Valor</th>
         </tr>
         <tr>
+            <td>Maquiagem Infantil</td>
+            <td>Leve e divertida, perfeita para aniversários e festas infantis.</td>
+            <td>R$ 40,00</td>
+        </tr>
+        <tr>
             <td>Maquiagem Express</td>
-            <td>Rápida e prática, ideal para compromissos do dia a dia.</td>
+            <td>Rápida e prática, ideal para fotos e compromissos de dia.</td>
             <td>R$ 80,00</td>
         </tr>
         <tr>
             <td>Maquiagem Social</td>
-            <td>Perfeita para eventos sociais e ocasiões especiais.</td>
+            <td>Perfeita para eventos sociais, jantares e ocasiões especiais.</td>
             <td>R$ 100,00</td>
         </tr>
         <tr>
@@ -96,10 +140,12 @@
         </tr>
     </table>
 
+    <!-- Contato -->
     <h2>Contato</h2>
     <p>Email: <a href="mailto:annetischlerr@gmail.com">annetischlerr@gmail.com</a></p>
     <p>Instagram: <a href="https://instagram.com/annetischlermakeup" target="_blank">@annetischlermakeup</a></p>
 
+    <!-- Regras e instruções -->
     <ul class="regras">
         <li>Agendamentos com horário marcado e confirmados com sinal via Pix.</li>
         <li>Tolerância de atraso: 10 minutos.</li>
@@ -108,7 +154,10 @@
         <li>Atendimento com muito carinho e atenção aos detalhes. 💖</li>
     </ul>
 
-    <p class="final-msg">✨ Cada detalhe pensado com carinho pra você. — Anne Tischler Makeup</p>
+    <!-- Mensagem final -->
+    <p class="final-msg">✨ Agende sua maquiagem e sinta-se ainda mais confiante com Anne Tischler Makeup.</p>
 
 </body>
 </html>
+
+
